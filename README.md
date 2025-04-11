@@ -57,10 +57,10 @@ Esta función, dada una URL, debe retornar un objeto con las siguientes propieda
   "pathname": "",
   "parametros": ""
 }
-
-
 ```
+
 #### 📌 Ejemplo de uso
+```
 let objeto = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
 console.log(objeto);
 ```
@@ -75,7 +75,6 @@ console.log(objeto);
 }
 ```
 
----
 
 ### ⚠️ EJ06 - Manejo de Excepciones
 
@@ -105,9 +104,9 @@ console.log(moneda);
 ```
 
 #### 💻 Salida por consola
-
+```
 "Peso Argentino"
-
+```
 
 
 ## Instalación de Dependencias
@@ -116,9 +115,9 @@ Para ejecutar este proyecto correctamente, necesitas instalar las dependencias n
 
 ### Paso 1: Inicializar un proyecto de Node.js
 
-bash
+```
 npm init -y
-
+```
 
 Esto creará un archivo `package.json` en tu proyecto.
 
@@ -160,3 +159,4 @@ También podés agregarlos en la sección "scripts" del `package.json`:
 "scripts": {
   "ej01": "node src/ej01.js",
   "ej02": "node src/ej02
+```
