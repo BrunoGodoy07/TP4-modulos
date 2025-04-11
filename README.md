@@ -158,5 +158,5 @@ También podés agregarlos en la sección "scripts" del `package.json`:
 ```json
 "scripts": {
   "ej01": "node src/ej01.js",
-  "ej02": "node src/ej02
+  "ej02": "node src/ej02"
 ```
