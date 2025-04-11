@@ -45,7 +45,7 @@ Desarrollarlo en forma de función.
 
 ```javascript
 copiar("./entrada.txt", "./salida.txt");
-
+```
 ### 🌐 EJ05 - Función `parsearUrl(url)`
 
 Desarrollar una aplicación que, utilizando el módulo interno `url`, invoque a una función llamada `parsearUrl(url)`.  
