@@ -83,7 +83,7 @@ Modificar el ejercicio anterior para que, en caso de que dentro de la función `
 
 📌 Recordá usar la estructura `try/catch`.
 
-```markdown
+```
 try {
   let objeto = parsearUrl("url-malformada");
   console.log(objeto);
@@ -92,7 +92,6 @@ try {
 }
 ```
 
----
 
 ### 🌍 EJ07 - Moneda por País
 
