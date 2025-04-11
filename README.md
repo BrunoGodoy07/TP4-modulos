@@ -58,22 +58,6 @@ Esta función, dada una URL, debe retornar un objeto con las siguientes propieda
   "parametros": ""
 }
 
-¡Perfecto! Acá te dejo el texto completo, **100% en Markdown**, incluyendo también el ejemplo de uso y la salida por consola en formato de **bloques de código correctamente etiquetados**, tal como lo pide un README bien hecho:
-
-```markdown
-### 🌐 EJ05 - Función `parsearUrl(url)`
-
-Desarrollar una aplicación que, utilizando el módulo interno `url`, invoque a una función llamada `parsearUrl(url)`.  
-Esta función, dada una URL, debe retornar un objeto con las siguientes propiedades:
-
-```json
-{
-  "host": "",
-  "pathname": "",
-  "parametros": ""
-}
-```
-
 #### 📌 Ejemplo de uso
 
 ```
