@@ -58,9 +58,9 @@ Esta función, dada una URL, debe retornar un objeto con las siguientes propieda
   "parametros": ""
 }
 
-#### 📌 Ejemplo de uso
 
 ```
+#### 📌 Ejemplo de uso
 let objeto = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
 console.log(objeto);
 ```
