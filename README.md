@@ -123,10 +123,8 @@ console.log(moneda);
 
 #### 💻 Salida por consola
 
-```markdown
 "Peso Argentino"
-```
-```
+
 
 
 ## Instalación de Dependencias
@@ -135,9 +133,9 @@ Para ejecutar este proyecto correctamente, necesitas instalar las dependencias n
 
 ### Paso 1: Inicializar un proyecto de Node.js
 
-```bash
+bash
 npm init -y
-```
+
 
 Esto creará un archivo `package.json` en tu proyecto.
 
