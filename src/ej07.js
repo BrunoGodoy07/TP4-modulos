@@ -1,4 +1,4 @@
-const { countries, currencies } = require('country-data');
+import { countries, currencies } from 'country-data';
 
 function obtenerMoneda(codigoPais) {
   const pais = Object.values(countries).find(p => p.alpha2 === codigoPais.toUpperCase());
@@ -13,6 +13,7 @@ function obtenerMoneda(codigoPais) {
   return moneda ? moneda.name : "Moneda no encontrada.";
 }
 
+export default obtenerMoneda
 console.log(obtenerMoneda("AR"));
 console.log(obtenerMoneda("US")); 
 console.log(obtenerMoneda("JP")); 

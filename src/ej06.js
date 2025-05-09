@@ -1,6 +1,6 @@
-const url = require('url');
+import url from 'url';
 
-function parsearUrl(urlStr) {
+function parsearUrl2(urlStr) {
   try {
     const objUrl = new url.URL(urlStr);
     const parametros = {};
@@ -19,5 +19,4 @@ function parsearUrl(urlStr) {
   }
 }
 
-const resultado = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
-console.log(resultado);
+export default parsearUrl2

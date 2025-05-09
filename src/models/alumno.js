@@ -5,4 +5,4 @@ class Alumno {
   }
 }
 
-module.exports = Alumno;
+export default Alumno

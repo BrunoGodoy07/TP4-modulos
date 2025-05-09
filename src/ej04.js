@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from "fs"
 
 function copiar(origen, destino) {
   fs.copyFile(origen, destino, (err) => {
@@ -10,4 +10,4 @@ function copiar(origen, destino) {
   });
 }
 
-copiar("./entrada.txt", "./salida.txt");
+export default copiar

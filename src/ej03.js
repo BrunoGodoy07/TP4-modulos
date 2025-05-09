@@ -1,7 +1,5 @@
-const Alumno = require('./models/alumno');
-
-const alumno1 = new Alumno("Martina", "12345678");
-const alumno2 = new Alumno("Luciano", "87654321");
-
-console.log(alumno1);
-console.log(alumno2);
+const mostrarAlumnos = (alumno1, alumno2) =>{
+    console.log(alumno1.username + alumno1.dni);
+    console.log(alumno2.username + alumno2.dni);
+}
+ export default mostrarAlumnos

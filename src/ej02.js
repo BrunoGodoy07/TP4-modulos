@@ -1,7 +1,11 @@
-const { PI, sumar, restar, multiplicar, dividir } = require('./modules/matematica');
+import { PI, sumar, restar, multiplicar, dividir }from "./modules/matematica.js";
 
-console.log("PI:", PI);
-console.log("Suma:", sumar(5, 3));
-console.log("Resta:", restar(8, 2));
-console.log("Multiplicación:", multiplicar(4, 7));
-console.log("División:", dividir(10, 2));
+const mostrarCuentas = (n1,n2) =>{
+    console.log("PI:", PI);
+    console.log("Suma:", sumar(n1, n2));
+    console.log("Resta:", restar(n1, n2));
+    console.log("Multiplicación:", multiplicar(n1, n2));
+    console.log("División:", dividir(n1, n2));
+}
+
+export default mostrarCuentas

@@ -1,5 +1,9 @@
-const nombre = "Juan";
-const saludo = "Hola";
 
-console.log(saludo + " " + nombre);
-console.log(`${saludo}, ¿cómo estás ${nombre}?`);
+const concatenarString = (string1, string2) =>  {
+    let concatenado = (string1+string2)
+    let interpolado = (`${string1} ${string2}`)
+    console.log(concatenado)
+    console.log(interpolado)
+ }
+ 
+ export default concatenarString

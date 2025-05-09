@@ -1,4 +1,4 @@
-const url = require('url');
+import url from 'url';
 
 function parsearUrl(urlStr) {
   const objUrl = new url.URL(urlStr);
@@ -7,7 +7,7 @@ function parsearUrl(urlStr) {
   for (const [key, value] of objUrl.searchParams.entries()) {
     parametros[key] = value;
   }
-
+  
   return {
     host: `${objUrl.protocol}//${objUrl.host}`,
     pathname: objUrl.pathname,
@@ -15,5 +15,5 @@ function parsearUrl(urlStr) {
   };
 }
 
-const resultado = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo");
-console.log(resultado);
+
+export default parsearUrl
